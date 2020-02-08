@@ -1,0 +1,8 @@
+---
+
+- name : MS Word macro execution
+  proc_name : WINWORD.EXE
+  functions :
+    - func_name : CreateProcessW
+      arguments :
+        lpApplicationName : C:\Windows\system32\cmd.exe

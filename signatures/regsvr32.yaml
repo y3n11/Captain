@@ -1,0 +1,8 @@
+---
+
+- name : regsvr32 malware
+  proc_name : regsvr32.exe
+  functions :
+    - func_name : LoadLibraryW
+      arguments :
+        lpLibFileName : scrobj.dll

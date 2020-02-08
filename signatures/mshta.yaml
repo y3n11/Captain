@@ -1,0 +1,8 @@
+---
+
+- name : mshta malware
+  proc_name : mshta.exe
+  functions :
+    - func_name : CreateProcessW
+      arguments :
+        lpApplicationName : C:\Windows\system32\cmd.exe

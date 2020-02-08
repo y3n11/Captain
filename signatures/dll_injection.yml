@@ -1,0 +1,10 @@
+---
+
+- name : DLL Injection
+  proc_name : 
+  functions :
+    - func_name : OpenProcess
+    - func_name : VirtualAllocEx
+    - func_name : WriteProcessMemory
+    - func_name : CreateRemoteThread
+
